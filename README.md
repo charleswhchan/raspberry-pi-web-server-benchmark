@@ -49,3 +49,26 @@ Failed transactions:	           0
 Longest transaction:	        0.12
 Shortest transaction:	        0.01
 ```
+
+## Golang
+- Go 1.0.2
+```
+siege -b -t60s http://raspberrypi:8000
+** SIEGE 3.0.5
+** Preparing 15 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...      done.
+
+Transactions:		       16411 hits
+Availability:		      100.00 %
+Elapsed time:		       59.84 secs
+Data transferred:	        0.19 MB
+Response time:		        0.05 secs
+Transaction rate:	      274.25 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       14.94
+Successful transactions:       16411
+Failed transactions:	           0
+Longest transaction:	        0.18
+Shortest transaction:	        0.00
+```
