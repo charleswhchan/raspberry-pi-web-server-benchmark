@@ -4,6 +4,8 @@
 - Each server returns a simple 'hello world' page.
 
 ## Flask (Python)
+- Python 2.7.3
+- Flask 0.10.1
 ```
 $ siege -b -t60s http://raspberrypi:5000
 ** SIEGE 3.0.5
@@ -24,11 +26,9 @@ Failed transactions:	           0
 Longest transaction:	        0.12
 Shortest transaction:	        0.03
 ```
-Remarks
-- Python 2.7.3
-- Flask 0.10.1
 
 ## Node.js
+- Node.js 0.10.38
 ```
 $ siege -b -t60s http://raspberrypi:1337
 ** SIEGE 3.0.5
