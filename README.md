@@ -27,3 +27,25 @@ Shortest transaction:	        0.03
 Remarks
 - Python 2.7.3
 - Flask 0.10.1
+
+## Node.js
+```
+$ siege -b -t60s http://raspberrypi:1337
+** SIEGE 3.0.5
+** Preparing 15 concurrent users for battle.
+The server is now under siege...
+Lifting the server siege...      done.
+
+Transactions:		       42866 hits
+Availability:		      100.00 %
+Elapsed time:		       59.26 secs
+Data transferred:	        0.49 MB
+Response time:		        0.02 secs
+Transaction rate:	      723.35 trans/sec
+Throughput:		        0.01 MB/sec
+Concurrency:		       14.95
+Successful transactions:       42866
+Failed transactions:	           0
+Longest transaction:	        0.12
+Shortest transaction:	        0.01
+```
