@@ -24,3 +24,6 @@ Failed transactions:	           0
 Longest transaction:	        0.12
 Shortest transaction:	        0.03
 ```
+Remarks
+- Python 2.7.3
+- Flask 0.10.1
